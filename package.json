@@ -1,0 +1,39 @@
+{
+  "name": "huditor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@codemirror/lang-css": "^6.0.0",
+    "@codemirror/lang-html": "^6.1.2",
+    "@codemirror/lang-javascript": "^6.1.0",
+    "@codemirror/lang-json": "^6.0.0",
+    "@codemirror/lang-markdown": "^6.0.1",
+    "@codemirror/lang-rust": "^6.0.0",
+    "@tauri-apps/api": "^1.1.0",
+    "autoprefixer": "^10.4.12",
+    "cm6-theme-material-dark": "^0.2.0",
+    "codemirror": "^6.0.1",
+    "nanoid": "^4.0.0",
+    "postcss": "^8.4.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remixicon": "^2.5.0",
+    "tailwindcss": "^3.1.8"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.1.0",
+    "@types/node": "^18.7.10",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.2"
+  }
+}
